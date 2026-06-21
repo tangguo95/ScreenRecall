@@ -1,0 +1,44 @@
+{
+  "name": "screen-recall",
+  "productName": "ScreenRecall",
+  "version": "0.1.0",
+  "description": "Local desktop key-screen capture with Live Photo style screen memory.",
+  "author": "tangguo95",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangguo95/ScreenRecall.git"
+  },
+  "homepage": "https://github.com/tangguo95/ScreenRecall#readme",
+  "main": "out/main/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "tsc --noEmit && electron-vite build",
+    "preview": "electron-vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@tesseract.js-data/chi_sim": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^5.1.2",
+    "electron": "^41.7.1",
+    "electron-vite": "^5.0.0",
+    "typescript": "^5.4.2",
+    "vite": "^7.3.5",
+    "vitest": "^4.1.9"
+  }
+}
