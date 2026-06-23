@@ -135,7 +135,9 @@ Issues and pull requests are welcome. Please keep privacy-sensitive behavior loc
 
 ## AI-assisted Development
 
-This project was designed, implemented, documented, and polished with the assistance of OpenAI Codex, under the author's direction and review.
+More than 99% of this project's code, documentation, and polishing work was created with the assistance of AI coding tools, including OpenAI Codex, under the author's direction and review.
+
+The project is provided as-is for learning, experimentation, and personal use. It has not undergone a dedicated professional security audit, vulnerability assessment, privacy review, or compliance review. Please review, test, and harden it yourself before using it in any production, public-network, privacy-sensitive, or security-sensitive environment. The author does not assume responsibility for security issues, privacy risks, data loss, service interruption, or other risks caused by use of this project.
 
 ## Contact
 
